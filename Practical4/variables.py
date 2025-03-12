@@ -1,21 +1,21 @@
-# 步行到公交站的时间，单位为分钟
+# The time it takes to walk to the bus stop, in minutes
 a = 15
-# 乘坐公交的时间，1小时15分钟转换为分钟
+# The time it takes to take the bus. Convert 1 hour and 15 minutes to minutes
 b = 60 + 15
-# 计算公交通勤总时间
+# Calculate the total commuting time by bus
 c = a + b
 
-# 开车的时间，1小时30分钟转换为分钟
+# The time it takes to drive. Convert 1 hour and 30 minutes to minutes
 d = 60 + 30
-# 从停车场步行的时间，单位为分钟
+# The time it takes to walk from the parking lot, in minutes
 e = 5
-# 计算开车通勤总时间
+# Calculate the total commuting time by car
 f = d + e
 
-# 比较两种通勤方式的总时间
+# Compare the total commuting times of the two methods
 if c < f:
-    print("公交通勤更快，公交通勤总时间为{}分钟，开车通勤总时间为{}分钟".format(c, f))
+    print("Commuting by bus is faster. The total commuting time by bus is {} minutes, and the total commuting time by car is {} minutes.".format(c, f))
 elif c > f:
-    print("开车通勤更快，公交通勤总时间为{}分钟，开车通勤总时间为{}分钟".format(c, f))
+    print("Commuting by car is faster. The total commuting time by bus is {} minutes, and the total commuting time by car is {} minutes.".format(c, f))
 else:
-    print("两种通勤方式时间相同，总时间均为{}分钟".format(c))
+    print("The commuting times of the two methods are the same. The total time is {} minutes for both.".format(c))
