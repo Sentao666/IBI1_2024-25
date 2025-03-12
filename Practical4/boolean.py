@@ -1,4 +1,3 @@
-```python
 # Create Boolean variable X and initialize it to True
 X = True
 # Create Boolean variable Y and initialize it to False
