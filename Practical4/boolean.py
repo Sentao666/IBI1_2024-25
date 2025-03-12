@@ -1,16 +1,15 @@
-# 创建布尔变量X并初始化为True
+# Create Boolean variable X and initialize it to True
 X = True
-# 创建布尔变量Y并初始化为False
+# Create Boolean variable Y and initialize it to False
 Y = False
 
-# 创建变量W，表示X和Y的“与”关系
+# Create variable W, representing the "and" relationship between X and Y
 W = X and Y
 
-# 打印变量W的值
-print("W的值为:", W)
+# Print the value of variable W
+print("The value of W is:", W)
 
-# 以注释形式给出W的真值表
-# 真值表：
+# Truth table for W (i.e., X and Y):
 # | X | Y | W（X and Y）|
 # |---|---|-------------|
 # | T | T | T           |
