@@ -19,3 +19,23 @@ elif c > f:
     print("Commuting by car is faster. The total commuting time by bus is {} minutes, and the total commuting time by car is {} minutes.".format(c, f))
 else:
     print("The commuting times of the two methods are the same. The total time is {} minutes for both.".format(c))
+
+#Boolean
+# Create Boolean variable X and initialize it to True
+X = True
+# Create Boolean variable Y and initialize it to False
+Y = False
+
+# Create variable W, representing the "and" relationship between X and Y
+W = X and Y
+
+# Print the value of variable W
+print("The value of W is:", W)
+
+# Truth table for W (i.e., X and Y):
+# | X | Y | W（X and Y）|
+# |---|---|-------------|
+# | T | T | T           |
+# | T | F | F           |
+# | F | T | F           |
+# | F | F | F           |
