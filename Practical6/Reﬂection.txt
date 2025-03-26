@@ -1,1 +1,1 @@
-
+#I think this practice task was very difficult. I spent a lot of time thinking about how to write code and solve error problems before class, but I enjoyed the process of solving problems and achieving results. I learned how to use matplotlib and numpy to solve practical problems
