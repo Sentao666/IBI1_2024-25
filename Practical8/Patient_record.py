@@ -16,6 +16,6 @@ class patients():
 
 if __name__ == "__main__":
     # Create an instance of the 'patients' class with specific patient details.
-    patient_1 = patients("John Smith", 35, "2025-04-01", "Has a history of hypertension")
+    patient_1 = patients("Wang Liwei", 18, "2025-04-01", "Has a history of hypertension")
     # Call the method to display the patient's information.
     patient_1.get_patients_information()
