@@ -14,8 +14,8 @@ class patients():
         # Print the information of the patient in a formatted way.
         print(f"Patient Name: {self.patient_name}, Age: {self.age}, Date of Latest Admission: {self.date_of_latest_admission}, Medical History: {self.medical_history}")
 
-if __name__ == "__main__":
-    # Create an instance of the 'patients' class with specific patient details.
-    patient_1 = patients("Wang Liwei", 18, "2025-04-01", "Has a history of hypertension")
-    # Call the method to display the patient's information.
-    patient_1.get_patients_information()
+
+# Create an instance of the 'patients' class with specific patient details.
+patient_1 = patients("Wang Liwei", 18, "2025-04-01", "Has a history of hypertension")
+# Call the method to display the patient's information.
+patient_1.get_patients_information()

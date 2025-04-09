@@ -19,11 +19,14 @@ def calculate_volume(weight, strength):
     # Calculate the required volume of paracetamol in milliliters
     volume_ml = required_dose_mg / concentration
     return volume_ml
-
+weight = int(input("weight: "))
+strength = input("strength: ")
+volume = calculate_volume(weight, strength)
+if volume is not None:
+    print(f"The required volume of paracetamol is {volume} ml")
 # Example of how to call the function
-if __name__ == "__main__":
-    weight = 30  
-    strength = "120 mg/5 ml"  
-    volume = calculate_volume(weight, strength)
-    if volume is not None:
-        print(f"The required volume of paracetamol is {volume} ml")
+weight0 = 30  
+strength0 = "120 mg/5 ml"  
+volume = calculate_volume(weight0, strength0)
+if volume is not None:
+    print(f"The required volume of paracetamol is {volume} ml")
