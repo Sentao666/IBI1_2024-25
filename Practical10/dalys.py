@@ -59,3 +59,12 @@ plt.title('Change in DALYs over time in China and the United Kingdom')
 plt.legend()
 plt.xticks(rotation=-90)
 plt.show()
+# Screen the records with DALYs greater than 650,000
+high_dalys = dalys_data[dalys_data['DALYs'] > 650000][['Entity', 'Year', 'DALYs']]
+
+# Check if there are any records that meet the conditions
+if not high_dalys.empty:
+    print("Countries with DALYs greater than 650,000 in a single year:")
+    print(high_dalys)
+else:
+    print("No country recorded DALYs greater than 650,000 in any year.")

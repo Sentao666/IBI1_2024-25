@@ -1,0 +1,4 @@
+Question: What country or countries have recorded a DALYs greater than 650,000 in a single year?
+Line number: 62
+Discussion: To my surprise, the DALYs rate of 693,367.49 recorded in Rwanda in 1994 was the only instance in the dataset that exceeded 650,000. 
+            Through consulting materials, I learned that the reason was the disastrous impact of the Rwandan genocide on population health.
