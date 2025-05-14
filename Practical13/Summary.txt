@@ -1,0 +1,13 @@
+1.Human SOD2 Protein
+Length: The human SOD2 protein has a length of 222 amino acids.
+Subcellular Localisation: It is localised in the mitochondria. This is important as mitochondria are major sites of reactive oxygen species (ROS) production, and SOD2 plays a crucial role in protecting this organelle from oxidative damage by catalysing the dismutation of superoxide radicals.
+2.Online BLAST Results
+The reported online BLAST results showed a range of percentage identities. The range of percentage identities is 58.1 - 100%. This range gives an indication of the similarity between the human SOD2 protein sequence and other sequences in the database. Higher percentages suggest closer evolutionary relationships or conserved functional domains.
+3.Python - based Comparisons
+For the three comparisons performed using Python:
+Comparison 1: The alignment score was 1097 and the percentage of identical amino acids was 90.09%.
+Comparison 2: The alignment score was -254 and the percentage of identical amino acids was 4.50%.
+Comparison 3: The alignment score was -258 and the percentage of identical amino acids was 4.95%.
+These scores and percentages help in quantifying the similarity between the sequences being compared. Higher alignment scores and percentages of identical amino acids indicate more similar sequences.
+4.Closely - related Sequences
+Based on the above analysis, the sod2 of human and mouse are the most closely related. This judgment is based on the fact that among these alignment sequences, Comparison 1 has the highest alignment score of 1097 and the highest percentage of the same amino acids of 90.09%.
